@@ -1,3 +1,5 @@
+
+import './style.css';
 const title = document.createElement('h3');
 title.titleContent = 'hazer'
 const page =document.querySelector('body');

@@ -13,4 +13,16 @@ module.exports = {
       template: path.resolve(__dirname, "./src/template.html"),
     }),
   ],
+  module: {
+    rules: [ 
+      {
+test:/\.css$/,
+use:['style-loader','css-loader']
+    },
+      {
+        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        type: 'asset/resource'
+    }
+    ]
+  }
 };
