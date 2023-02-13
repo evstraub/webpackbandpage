@@ -1,0 +1,1 @@
+document.createElement("h3").titleContent="hazer",document.querySelector("body").append("title");
