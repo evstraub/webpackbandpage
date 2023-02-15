@@ -2,9 +2,6 @@
   font-family: "Norse-Bold";
   src: url("./hazer.ttf");
 }
-* {
-  box-sizing: border-box;
-}
 
 .menu {
   display: flex;
@@ -29,11 +26,14 @@
 }
 
 .main {
-  float: left;
-  width: 60%;
-  padding: 0 20px;
 }
-
+#album {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
+  background-color: white;
+}
 #album img {
   background-color: none;
   max-width: 450px;
@@ -41,10 +41,8 @@
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   border: #000d1b solid;
   position: relative;
-  float: right;
+
   z-index: 50;
-  margin-bottom: 10%;
-  margin-top: 10%;
 }
 #album img:hover {
   background-color: none;
@@ -74,16 +72,18 @@
 }
 
 .right {
-  background-color: #d17c7c;
+  background-color: rgb(255, 255, 255);
   width: 100vw;
-  height: 100px;
+  height: 315px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   margin-bottom: 10%;
 }
-
+iframe {
+  border: rgb(34, 34, 34) 8px solid;
+}
 .footer {
   background-color: #2d3047;
   width: 100vw;
