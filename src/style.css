@@ -2,7 +2,9 @@
   font-family: "Norse-Bold";
   src: url("./hazer.ttf");
 }
-
+body {
+  background-color: #4a4a48;
+}
 .menu {
   display: flex;
   justify-content: space-between;
@@ -16,11 +18,22 @@
 }
 
 .menu a {
-  background-color: #e5e5e5;
+  background-color: #2b2b28;
   padding: 20px;
-
+  text-decoration: none;
+  font-family: "Norse-Bold";
   width: 100%;
-  color: black;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+.menu a:hover {
+  background-color: #2b2b28;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Norse-Bold";
+  width: 100%;
+  color: #c19898;
   display: flex;
   justify-content: center;
 }
@@ -32,7 +45,7 @@
   align-items: center;
   justify-content: center;
   padding: 15%;
-  background-color: white;
+  background-color: #4a4a48;
 }
 #album img {
   background-color: none;
@@ -72,7 +85,7 @@
 }
 
 .right {
-  background-color: rgb(255, 255, 255);
+  background-color: #4a4a48;
   width: 100vw;
   height: 315px;
   display: flex;
@@ -204,7 +217,21 @@ iframe {
 .header li:hover {
   animation: shake 0.8s;
 }
-@keyframes shake {
+
+
+.header ul {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  list-style: none;
+  margin-left: auto;
+  height: 20px;
+  font-size: 15px;
+  padding: 20px;
+  margin-right: 100px;
+  align-items: center;
+} */
+/* @keyframes shake {
   0% {
     transform: translateX(0);
   }
@@ -220,17 +247,4 @@ iframe {
   100% {
     transform: translateX(0);
   }
-}
-
-.header ul {
-  display: flex;
-  gap: 20px;
-  text-decoration: none;
-  list-style: none;
-  margin-left: auto;
-  height: 20px;
-  font-size: 15px;
-  padding: 20px;
-  margin-right: 100px;
-  align-items: center;
 } */
